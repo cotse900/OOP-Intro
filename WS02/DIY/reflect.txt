@@ -1,0 +1,15 @@
+/*
+	OOP244
+	Name   : Chungon Tse
+	ID     : 154928188
+	Email  : cotse@myseneca.ca
+	Section: NDD
+	Date   : 30 Jan 2022
+*/
+
+Workshop 2 reflection
+This workshop was about reading a file. For some reason, I had huge difficulties because I did not review sufficiently prior instructions on reading files in C. I finished part 1 very quickly, although I still ran into issues like redefinitions (not sorting out functions well). I was fine doing the struct PhoneEntry with an extra byte size for all four phone fields. Before I submit this, I sorted out the badDataFile.txt and made phoneDir cater for both good and bad files.
+
+The main issue was on thinking out the logics for printing phone entries. There were numerous hurdles in getting the fptr, cin input, and making a nullptr by the end of reading a file. I spent or wasted the most time on thinking out toLowerCaseAndCopy although it was the biggest hint actually that I got. Precisely, it took days to know the logic had to be this: first, there was "input". Then, it should go in the lower case and copied to "lower". In strStr, compare "lower" and "partial". "partial" is the "same" as "lower", but it is a lower-case parallel of "name" (phone entry names). So, we do not compare "input" and "name" directly, but rather their lower-case or "cleaned" counterparts, namely "lower" and "partial". That was exactly how to get the program to read things like lukE as opposed to Luke and still retrieve the correct entries.
+
+Reading files is in my opinion not a very common issue. It can be easy or very difficult but again it is all empirical.
