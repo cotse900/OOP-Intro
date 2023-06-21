@@ -1,0 +1,17 @@
+/*
+	OOP244
+	Name   : Chungon Tse
+	ID     : 154928188
+	Email  : cotse@myseneca.ca
+	Section: NDD
+	Date   : 5 Feb 2022
+*/
+
+Workshop 3 reflection
+This workshop is thankfully a simpler one so far and it is on class type, member functions, setters, getters, modifying class variables indirectly through member functions, and a little bit on formatting output.
+
+It may sound like an easy exercise but still it took me some time to figure out things. It is some manipulation of class objects and the variables inside, namely speed, people, and train name. I all along like the guided parts of a workshop. It sounds similar to holding someone's hand and teaching them to write. I already knew class but still the difference between struct and class was important. I also see it as some repetition on how to write functions and pay attention to parameters.
+
+In the setter function, there is const* char train, int num, and double speed. This is where the variables can be assigned to train, num, and speed respectively. This is mirrored by the getter functions. Empty state is not difficult but still it is practice on if-else logics. Another familiar thing that took practice was setting flags.
+
+Just because things sound easy, it does not mean we can slack off. I still spent time on thinking out the change of variable values here. I spent the most time on "transfer". It really only took transferNum to be the medium for changing people (from loadPeople). The crux here is to correctly identify Train& train1 and Train& train2, i.e. passing by reference. I am not very familiar with c++ yet and I think this is the very way of doing it properly in this case.
