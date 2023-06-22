@@ -1,0 +1,15 @@
+/*
+	OOP244
+	Name   : Chungon Tse
+	ID     : 154928188
+	Email  : cotse@myseneca.ca
+	Section: NDD
+	Date   : 13 Feb 2022
+*/
+
+Workshop 4 reflection
+This workshop is more on output elements than on member functions. In the latter, the focus is on how to use member functions, how to distinguish between modifiers and queries, as well as how to use global functions to access a class.
+
+The main difficulties are on how to pinpoint the logics in the control room report and print the correct entries. There are multiple things to work on. First, there are a bunch of setters and getters. Then, other than isValid, there are things like isDeployed() and how to return the correct invalid value in this function. Also, there is a lot of work on getting the output format correct. It can be as small as a tiny space or it can be how I would go into an infinite loop without setting the right invalid -1. I spent the last few hours on returning the correct robot array index but it is in fact a simple math question on array index. That was a lot of stress on tiny details.
+
+It really is a challenge and valgrind is a very strict police officer on variables, function use, and many other things.
