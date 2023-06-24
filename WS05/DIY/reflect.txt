@@ -1,0 +1,15 @@
+/*
+	OOP244
+	Name   : Chungon Tse
+	ID     : 154928188
+	Email  : cotse@myseneca.ca
+	Section: NDD
+	Date   : 18 Feb 2022
+*/
+
+Workshop 5 reflection
+This workshop is on overloading operators to achieve data changes in especially certain arrays in some class where there can be a combination of integers, doubles, and strings. Overall, it is an easy exercise. I spent quite some time on understanding part 1 because like previous workshops there are many instructions. I cannot say the wording is wrong, but it takes effort to understand what it exactly is.
+I spent the most time on Flight& Flight::operator=(const int assign) in for the if statement. While I had no issue with the number of passengers, a single && or || kept me from getting an EmptyPlane of 300 passengers instead of an empty plane with 0 passenger, as what the empty state function does.
+I also had practice in basic logics in the insertion and extraction operators for adding or subtracting numbers from different arrays. In part 1 it should be about ++ and --, whereas in part 2 you could simply move the figures wholesome since there are few limits on values.
+There can be either global functions or friend functions for the binary helper operators, and it is interesting to know casting class reference as integers/doubles. That is probably an important topic later on.
+
