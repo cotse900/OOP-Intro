@@ -1,0 +1,26 @@
+Person Name,1231231234-XL,AF1234567
+HealthCard Content:
+Person Name.......................................1231231234-XL, AF1234567
+Enter the following:
+>Person Name,1231231234-XL,AF123456
+>Person Name,1231231234-XL,AF123456
+HealthCard Content:
+Invalid Health Card Record
+Enter the following:
+>Person Name,1231231234-L,AF1234567
+>Person Name,1231231234-L,AF1234567
+HealthCard Content:
+Invalid Health Card Record
+Enter the following:
+>Person Name,1231231234-,AF1234567
+>Person Name,1231231234-,AF1234567
+HealthCard Content:
+Invalid Health Card Record
+Enter the following:
+>Person Name,131231234-XL,AF1234567
+>Person Name,131231234-XL,AF1234567
+HealthCard Content:
+Invalid Health Card Record
+Enter the following:
+>Person Name 1231231234-XL,AF1234567
+>Person Name 1231231234-XL,AF1234567
