@@ -1,0 +1,13 @@
+/*
+	OOP244
+	Name   : Chungon Tse
+	ID     : 154928188
+	Email  : cotse@myseneca.ca
+	Section: NDD
+	Date   : 23 March 2022
+*/
+
+Workshop 8 reflection
+I have had so many pressing deadlines and milestones are all difficult to complete on time. To start off, the deadlines are already lenient, but it takes time to think out logics even for topics that have already been covered such as extraction and insertion helper functions. I believe workshop 8 will help with milestone 3 because virtual functions and abstract class are new.
+Virtual function is central in inheritance. It enables a derived class to override the base class and the former can do extra features unseen in the latter. Basically, a pure virtual function, an essential feature of an abstract class, is like a blueprint. WS8 is a demonstration of interface, abstract class, and concrete class. Shape gives rise to LblShape, and with LblShape (here, it is for naming an actual shape) gives rise to actual shapes that go with label, width, and length. Whether we talk about parameters and constructors or destructors, these 4 classes show clearly how which are which. Say, the concrete classes have “no” destructor in this case, but the abstract and interface must, and we do not copy interface and abstract over to those derived classes.
+While I struggle with time, I think inheritance (also polymorphism) here is where OOP starts getting both complicated and more interesting.
