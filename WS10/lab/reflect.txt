@@ -1,0 +1,20 @@
+/*
+	OOP244
+	Name   : Chungon Tse
+	ID     : 154928188
+	Email  : cotse@myseneca.ca
+	Section: NDD
+	Date   : 13 April 2022
+*/
+
+Workshop 10 reflection
+
+The select template receives array, array size, and a constant referenced Collection object. It looks for matching elements between the array and the object. If the two have a matching element with the overloaded == operator in each required array (Car, Employee, Student, int), then the "match" increments and it is the required matching array size. Then, in another loop, use the Collection object S with array size "match", and try to set S elements to the number of "matched" corresponding to the required arrays. Select returns the matched set of elements of this object as S.
+
+The printCollection template receives the Collection object and prints an array's title. It goes through to print each matched element of the object each line through using select above.
+
+template receives the Collection object and prints a required array's title. It goes through to print each matched element of the object each line through using select above. For each given object, call size() to invoke m_size in Collection which reflects matching elements (through = operator in Collection). Notice the array size is unsigned as in Connection.
+
+The topic of template is one step before the next OOP class for more advanced topics. This is where more generic functions come into place, and this workshop is thankfully less output than prior workshops, so it can feel somewhat easier. But the difference is this is more difficult to debug because abstract base class, derived classes, and template are intertwined. In this case, the use of == and = operators across these classes means that temps.h has to do good work in connecting them all together. Also, unlike the prior topics on passing by reference, passing current object, and so on, this is about passing values and an entire object (array). To me, that is closer than ever to the use of main.cpp code. Not just writing your code to make it with main.cpp. temps.h is more closely related to main.cpp than prior workshop to-do files.
+
+I am still trying to conclude the project. Basically, the main difficulties are on input and output refinements, fstream, passing objects, writing menus, and so on. The multiple modules and different tasks every turn also meant refinements in output and functionalities. All I can say is it is a matter of extent and time constraint. Sure, learning by doing. But it is more than that. This is partly why I need time to reflect beyond this class and spend more time on coding on my own while reading any (online) sources on coding, and not just this language. With more exposure and experience, then coding tasks may be less daunting and time-consuming.
